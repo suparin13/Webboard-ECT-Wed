@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 06, 2024 at 11:05 AM
+-- Generation Time: Mar 13, 2024 at 10:39 AM
 -- Server version: 10.4.27-MariaDB
 -- PHP Version: 8.2.0
 
@@ -60,7 +60,6 @@ CREATE TABLE `comment` (
 --
 
 INSERT INTO `comment` (`id`, `content`, `post_date`, `user_id`, `post_id`) VALUES
-(1, 'ลากเท่านั้น', '2024-03-06 15:20:31', 11, 3),
 (2, 'เราก็พิมพ์ตามไม่ทันอาจารย์เหมือนกันเลย อาจารย์น่าจะสอนเร็วแหละเราว่านะ', '2024-03-06 16:39:25', 12, 4),
 (3, 'F แน่นอน', '2024-03-06 16:40:52', 12, 2),
 (4, 'ไม่ทันเหมือนกันครับ', '2024-03-06 16:42:04', 10, 4),
@@ -86,11 +85,8 @@ CREATE TABLE `post` (
 --
 
 INSERT INTO `post` (`id`, `title`, `content`, `post_date`, `cat_id`, `user_id`) VALUES
-(1, 'บลาๆๆๆๆ', 'fgfgfh', '2024-02-28 16:41:51', 1, 10),
 (2, 'จะFมั้ยคับ', 'กลัวจะFแน่นอน', '2024-02-28 16:43:32', 2, 9),
-(3, 'ทำยังไงให้เพื่อนไปตีแบตด้วยคะ', 'เพื่อนไม่ยอมไปตีแบตด้วยค่ะเพื่อนบอกไม่ชอบเราจะทำยังไงให้เพื่อนชอบคะ', '2024-02-28 16:47:35', 3, 9),
-(4, 'พิมพ์โปรแกรมตามอาจารย์ไม่ทันเลยครับ', 'ทำยังไงให้พิมพ์ตามอาจารย์ทันครับ', '2024-03-06 15:24:44', 2, 11),
-(5, 'ลิเวอร์พูล กับ แมนยู ผลเป็นยังไงบ้างครับ', 'ผมอยากรู้ผลของลิเวอร์พูล กับ แมนยู ผลเป็นยังไงบ้างครับ', '2024-03-06 16:20:24', 3, 12);
+(4, 'พิมพ์โปรแกรมตามอาจารย์ไม่ทันเลยครับ', 'ทำยังไงให้พิมพ์ตามอาจารย์ทันครับ', '2024-03-06 15:24:44', 2, 11);
 
 -- --------------------------------------------------------
 
@@ -166,19 +162,19 @@ ALTER TABLE `category`
 -- AUTO_INCREMENT for table `comment`
 --
 ALTER TABLE `comment`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 
 --
 -- AUTO_INCREMENT for table `post`
 --
 ALTER TABLE `post`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 
 --
 -- AUTO_INCREMENT for table `user`
 --
 ALTER TABLE `user`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
