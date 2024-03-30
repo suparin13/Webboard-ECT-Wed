@@ -62,7 +62,7 @@
                         <div class="row">
                             <div class="col-lg-12 d-flex justify-content-center">
                                 <button type="submit" class="btn btn-success btn-sm text-white">
-                                    <i class="bi bi-box-arrow-up-right"></i>ส่งข้อความ
+                                    <i class="bi bi-box-arrow-up-right"></i> ส่งข้อความ
                                 </button>
                                 <button type="reset" class="btn btn-danger btn-sm ms-2">
                                 <i class="bi bi-x-square"></i> ยกเลิก</button>
